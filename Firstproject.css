@@ -1,0 +1,570 @@
+html.body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 2%;
+    padding: 0;
+    width: 96%;
+    height: auto;
+    align-items: center;
+}
+
+#Headerleft {
+    width: 40%;
+}
+
+#Headerright {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#Headerright button {
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    font-size: large;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+.First {
+    margin-top: 10%;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    font-size: larger;
+}
+
+.First h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.First p {
+    font-size: small;
+    margin-bottom: 30px;
+    margin-left: 24.5%;
+    margin-right: 31%;
+}
+
+.First button {
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    border-color: hsl(322, 100%, 66%);
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    font-size: small;
+}
+
+/* second Div css Style */
+
+.Second {
+    margin: auto;
+    margin-top: 6%;
+    width: 70%;
+}
+
+/* Third Div css Style */
+
+.Third {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    height: 80%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+
+
+#ThirdLeft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    margin-right: 40%;
+}
+
+#ThirdLeft h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#ThirdLeft p {
+    color: grey;
+    margin-top: 0;
+}
+
+#ThirdRight {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+#ThirdRight h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#ThirdRight p {
+    color: grey;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+
+
+
+/* four Div css Style */
+
+.four {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(207, 100%, 98%);
+    position: relative;
+    top: -5px;
+    z-index: 2;
+    width: 100%;
+    height: 50%;
+}
+
+.fourimagebottom {
+    position: relative;
+    top: -8px;
+    z-index: 1;
+}
+
+#fourleft {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#fourleft h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#fourright {
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+}
+
+.Fifth {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#Fifthleft {
+    margin-left: 10%;
+    width: 50%;
+}
+
+#FifthRight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 10%;
+}
+
+#FifthRight h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#FifthRight p {
+    margin-left: 50px;
+}
+
+
+
+
+
+.Sixth {
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    position: relative;
+    top: -5px;
+    z-index: 2;
+}
+
+
+#SixthLeft {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 40%;
+}
+
+#SixthLeft h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+#SixthRight {
+    width: 40%;
+    margin-right: 7%;
+    margin-left: 8%;
+
+}
+
+.Sixthimgbottom {
+
+    position: relative;
+    top: -8px;
+    z-index: 1;
+}
+
+
+/* Six Div Css Styling  Done*/
+.Seventh {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.Seventh h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.Seventh button {
+    margin-top: 2%;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    border-color: hsl(322, 100%, 66%);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-size: large;
+}
+
+
+
+
+
+
+/* footer css  Done*/
+
+.Parent {
+    position: relative;
+}
+
+.Footer {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    color: white;
+    height: 300px;
+    position: absolute;
+    top: 95%;
+}
+
+.leftdiv {
+    width: 300px;
+    height: 200px;
+    margin-top: 0%;
+    font-size: small;
+    margin-left: 10%;
+}
+
+.leftdiv p {
+    margin-top: 5%;
+}
+
+.marg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftdiva {
+    margin-top: 12%;
+}
+
+.leftdivb {
+    margin-top: 10%;
+}
+
+
+.rightdiv {
+    margin-left: 35%;
+    width: 300px;
+    margin-top: 2%;
+    font-size: small;
+
+}
+
+.boxs {
+    display: flex;
+}
+
+.textt {
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+.footerbutton {
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    border-color: hsl(322, 100%, 66%);
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    margin-left: 2%;
+    size: large;
+}
+
+.combinea {
+    display: flex;
+    align-items: center;
+}
+
+.combineb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rightdivheading {
+    color: white;
+}
+
+.rightdivpara {
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+    /* Adjust the size of the icons */
+    vertical-align: middle;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 428px) {
+    html.body {
+        font-weight: 400;
+    }
+
+    #Headerleft {
+        width: 60%;
+        margin-left: 5%;
+    }
+
+    #Headerright button {
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .First {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .First p {
+        width: 100%;
+        margin-bottom: 7%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .First button {
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        font-size: 10px;
+    }
+
+    .Third {
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    #ThirdRight {
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    .four {
+        flex-direction: column-reverse;
+    }
+
+    #fourleft {
+        margin-top: 10%;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    #fourleft h1 {
+        font-size: 20px;
+    }
+
+    #fourleft p {
+        margin-top: 10%;
+        font-size: 10px;
+    }
+
+    #fourright {
+        margin-left: 30%;
+    }
+
+    .Fifth {
+        flex-direction: column;
+    }
+
+    #Fifthleft {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    #FifthRight {
+        margin-left: 25%;
+    }
+
+    #FifthRight h1 {
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+
+    #FifthRight p {
+        font-size: small;
+        margin: 3px;
+    }
+
+    .Sixth {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #SixthLeft {
+        width: 100%;
+        text-align: center;
+    }
+
+    #SixthLeft h1 {
+        font-size: 25px;
+    }
+
+    #SixthLeft p {
+        width: 80%;
+        margin: 5%;
+    }
+
+    #SixthRight {
+        width: 50%;
+    }
+
+    .Seventh {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .Seventh h1 {
+        font-size: 25px;
+    }
+
+    .Seventh button {
+        margin-top: 8%;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .Footer {
+        flex-direction: column-reverse;
+        top: 85%;
+        height: 600px;
+    }
+
+    .leftdiv {
+        margin-bottom: 80px;
+    }
+
+    .rightdiv {
+        margin-left: 10%;
+        margin-bottom: -20%;
+    }
+
+    .boxs {
+        flex-direction: column;
+    }
+
+    .textt {
+        padding: 10px;
+    }
+
+    .footerbutton {
+        border-radius: 5px;
+        margin-left: 175px;
+        margin-bottom: 120px;
+        margin-top: 10px;
+    }
+
+    .rightdivheading,
+    .rightdivpara {
+        color: white;
+    }
+
+    .social-icons a {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
